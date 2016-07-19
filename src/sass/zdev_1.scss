@@ -1,6 +1,6 @@
 /* representation-in-court, real-estate-transaction */
 
-    .representation-in-court, .real-estate-transaction{
+    .representation-in-court, .real-estate-transaction, .migration-questions{
 
         .second-block{
             .mbox{
@@ -68,6 +68,14 @@
     }
 
 /* /real-estate-transaction */
+
+/* migration-questions */
+
+    .migration-questions{
+        .first-block{background-image: url(../images/first-block-background-migration-questions.jpg);}
+    }
+
+/* /migration-questions */
 
 /* diferend */
 
