@@ -38,6 +38,28 @@
             }
         }
 
+        .fourth-block{
+            .mbox{
+                .advantages{padding-left: 0;
+                    .advantage{width:calc(100% / 4);padding-right: 30px;
+                        .advantage-text{
+                            p{line-height: 1.35;}
+                        }
+                    }
+                }
+            }
+        }
+
+        .fifth-block{
+            .mbox{
+                .statistic-container{
+                    .statistic-heading{
+                        h3{text-transform: uppercase;}
+                    }
+                }
+            }
+        }
+
     }
 
 /* /representation-in-court */
