@@ -16,6 +16,11 @@
                     .some-text{
                         p{line-height:1.25;}
                     }
+                    .row{
+                        .cell{
+                            &:nth-child(2), &:nth-child(3){padding:45px 20px 45px 25px;}
+                        }
+                    }
                 }
             }
         }
@@ -34,7 +39,7 @@
 
         .fifth-block{
             .mbox{
-                .statistic-container{
+                .statistic-container{justify-content: center;
                     .statistic-heading{
                         h3{text-transform: uppercase;}
                     }
@@ -50,6 +55,7 @@
 
     .representation-in-court{
         .first-block{background-image:url(../images/first-block-background-representation-in-court.jpg);}
+        .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
     }
 
 /* /representation-in-court */
@@ -58,6 +64,7 @@
 
     .real-estate-transaction{
         .first-block{background-image:url(../images/first-block-background-real-estate-transaction.jpg);}
+        .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
     }
 
 /* /real-estate-transaction */
