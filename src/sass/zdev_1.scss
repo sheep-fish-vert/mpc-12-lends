@@ -1,6 +1,6 @@
 /* representation-in-court, real-estate-transaction */
 
-    .representation-in-court, .real-estate-transaction, .migration-questions{
+    .representation-in-court, .real-estate-transaction, .migration-questions, .consumer-rights-protection{
 
         .second-block{
             .mbox{
@@ -77,6 +77,26 @@
     }
 
 /* /migration-questions */
+
+/* consumer-rights-protection */
+
+    .consumer-rights-protection{
+        .first-block{background-image: url(../images/first-block-background-consumer-rights-protection.jpg);}
+        .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
+
+        .fifth-block{
+            .mbox{
+                .statistic-container{
+                    .statistic-item{width: calc(100% / 2 - 100px);
+                        &>div{max-width: 200px;width: 100%;margin:0 auto;}
+                    }
+                }
+            }
+        }
+
+    }
+
+/* /consumer-right-protection */
 
 /* diferend */
 
