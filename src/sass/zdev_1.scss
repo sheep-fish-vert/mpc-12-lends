@@ -1,6 +1,6 @@
 /* representation-in-court, real-estate-transaction */
 
-    .representation-in-court, .real-estate-transaction, .migration-questions, .consumer-rights-protection{
+    .representation-in-court, .real-estate-transaction, .migration-questions, .consumer-rights-protection, .housing-lawyer{
 
         .second-block{
             .mbox{
@@ -97,6 +97,26 @@
     }
 
 /* /consumer-right-protection */
+
+/* housing-lawyer */
+
+    .housing-lawyer{
+        .first-block{background-image: url(../images/first-block-background-housing-lawyer.jpg);background-position: center top;}
+        .third-block{
+            .mbox{
+                .cells{
+
+                    &.no-table{display: block;border-top:1px solid #dadada;
+                        .row{display: flex;justify-content: center;align-items: center;
+                            .cell{display: block;max-width: 730px;width:100%;border-right:none;border-bottom:none;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+/* /housing-lawyer */
 
 /* diferend */
 
