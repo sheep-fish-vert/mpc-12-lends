@@ -1,24 +1,6 @@
-/* representation-in-court */
+/* representation-in-court, real-estate-transaction */
 
-    .representation-in-court{
-
-        .first-block{background-image:url(../images/first-block-background-representation-in-court.jpg);
-            .mbox{
-                .main-container{
-                    .column{width: 33.33%;position: relative;
-                        &:after{content:'';display: block;position:absolute;width:1px;height:25px;left:auto;right:0;bottom:auto;top:18px;background-color: #fff;}
-                        &:last-child{
-                            &:after{display: none;}
-                        }
-                        .upper-part, .lower-part{width: 320px;margin:0 auto;}
-                        .upper-part{
-                            &:after{display: none;}
-                        }
-                        .lower-part{display: none;}
-                    }
-                }
-            }
-        }
+    .representation-in-court, .real-estate-transaction{
 
         .second-block{
             .mbox{
@@ -62,4 +44,36 @@
 
     }
 
+/* /representation-in-court, real-estate-transaction */
+
+/* representation-in-court */
+
+    .representation-in-court{
+        .first-block{background-image:url(../images/first-block-background-representation-in-court.jpg);}
+    }
+
 /* /representation-in-court */
+
+/* diferend */
+
+    .first-block{
+        &.diferend{
+            .mbox{
+                .main-container{
+                    .column{width: 33.33%;position: relative;
+                        &:after{content:'';display: block;position:absolute;width:1px;height:25px;left:auto;right:0;bottom:auto;top:18px;background-color: #fff;}
+                        &:last-child{
+                            &:after{display: none;}
+                        }
+                        .upper-part, .lower-part{width: 320px;margin:0 auto;}
+                        .upper-part{
+                            &:after{display: none;}
+                        }
+                        .lower-part{display: none;}
+                    }
+                }
+            }
+        }
+    }
+
+/* /diferend */
