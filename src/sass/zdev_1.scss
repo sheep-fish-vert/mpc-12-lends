@@ -1,6 +1,6 @@
-/* representation-in-court, real-estate-transaction */
+/* inside-styles */
 
-    .representation-in-court, .real-estate-transaction, .migration-questions, .consumer-rights-protection, .housing-lawyer, .divorce-suit, .anticollector, .avtoyurist{
+    .representation-in-court, .real-estate-transaction, .migration-questions, .consumer-rights-protection, .housing-lawyer, .divorce-suit, .anticollector, .avtoyurist, .rf228{
 
         .second-block{
             .mbox{
@@ -49,7 +49,7 @@
 
     }
 
-/* /representation-in-court, real-estate-transaction */
+/* /inside-styles */
 
 /* representation-in-court */
 
@@ -144,6 +144,15 @@
     }
 
 /* /avtoyurist */
+
+/*  rf228 */
+
+    .rf228{
+        .first-block{background-image:url(../images/first-block-background-228.jpg);}
+        .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
+    }
+
+/* / rf228 */
 
 /* diferend */
 
