@@ -1,6 +1,6 @@
 /* representation-in-court, real-estate-transaction */
 
-    .representation-in-court, .real-estate-transaction, .migration-questions, .consumer-rights-protection, .housing-lawyer, .divorce-suit{
+    .representation-in-court, .real-estate-transaction, .migration-questions, .consumer-rights-protection, .housing-lawyer, .divorce-suit, .anticollector{
 
         .second-block{
             .mbox{
@@ -116,11 +116,21 @@
 
 /* /divorce-suit */
 
+/* anticollector */
+
+    .anticollector{
+        .first-block{background-image: url(../images/first-block-background-anticollector.jpg);}
+        .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
+    }
+
+/* /anticollector */
+
 /* diferend */
 
     .first-block{line-height: 1.5;padding:30px 0 30px 0;
         &.diferend{
             .mbox{
+                .heading{width:auto;}
                 .main-container{
                     .column{width: 33.33%;position: relative;
                         &:after{content:'';display: block;position:absolute;width:1px;height:25px;left:auto;right:0;bottom:auto;top:18px;background-color: #fff;}
