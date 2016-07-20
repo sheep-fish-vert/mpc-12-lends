@@ -159,9 +159,9 @@
 
 /* fifth-block */
 
-	.fifth-block{background: url('../images/fifth-block-bakcground.jpg') no-repeat; background-size: contain; background-position: center bottom;
+	.fifth-block{background: url('../images/fifth-block-bakcground.jpg') no-repeat; background-size: cover; background-position: center bottom;
 		.mbox{padding-top: 70px; padding-bottom: 0px;
-			.statistic-container{ width: 970px; border: 2px solid #af1717; display: flex; justify-content: center; flex-wrap: wrap; margin: 0 auto; padding: 50px 0 50px 0 ;
+			.statistic-container{ width: 970px; border: 2px solid #af1717; display: flex; justify-content: center; flex-wrap: wrap; margin: 0 auto 60px auto; padding: 50px 0 50px 0 ;
 				.statistic-heading{font-family: 'georgia'; font-size: 30px; text-align:center; width: 100%;
 					h3{margin: 0;}
 				}
@@ -177,7 +177,7 @@
 					}
 				}
 			}
-			.form-container{background: #32363f; width: 970px; max-height: 465px; margin: 0 auto;  position: relative; bottom:-65px; z-index: 9999; box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+			.form-container{background: #32363f; width: 970px; max-height: 465px; margin: 0 auto;  position: relative; margin-bottom:-65px; z-index: 9999; box-shadow: 0 0 20px 0 rgb(0, 0, 0);
 				.contact-form-title{text-align: center;font-family: "open Sans";padding: 60px 0 50px 0; color: #fff;
 					h5{margin: 0 0 18px 0; font-family: 'georgia'; font-size: 30px; line-height: 1.5;
 
@@ -299,7 +299,7 @@
 	.fourth-block{
 		.mbox{
 			.advantages{padding: 0;
-				.advantage{width: calc(100% / 4);padding-right: 10px; 
+				.advantage{width: calc(100% / 4);padding-right: 10px;
 				}
 			}
 		}
