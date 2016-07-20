@@ -130,17 +130,6 @@
     .avtoyurist{
         .first-block{background-image:url(../images/first-block-background-avtoyrist.jpg);}
         .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
-
-        .fifth-block{
-            .mbox{
-                .statistic-container{
-                    .statistic-item{width: calc(100% / 2 - 100px);
-                        &>div{max-width: 200px;width: 100%;margin:0 auto;}
-                    }
-                }
-            }
-        }
-
     }
 
 /* /avtoyurist */
@@ -153,6 +142,15 @@
     }
 
 /* / rf228 */
+
+/* labour-disputes */
+
+    .labor-disputes{
+        .first-block{background-image:url(../images/first-block-background-labor-disputes.jpg);}
+        .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
+    }
+
+/* /labour-disputes */
 
 /* diferend */
 
