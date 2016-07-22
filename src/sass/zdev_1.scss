@@ -63,7 +63,11 @@
 /* real-estate-transaction */
 
     .real-estate-transaction{
-        .first-block{background-image:url(../images/first-block-background-real-estate-transaction.jpg);}
+        .first-block{background-image:url(../images/first-block-background-real-estate-transaction.jpg);
+            .mbox{
+                .heading{max-width: 665px;margin:0 auto;}
+            }
+        }
         .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
     }
 
@@ -81,7 +85,13 @@
 /* consumer-rights-protection */
 
     .consumer-rights-protection{
-        .first-block{background-image: url(../images/first-block-background-consumer-rights-protection.jpg);}
+        .first-block{background-image: url(../images/first-block-background-consumer-rights-protection.jpg);
+            .mbox{
+                .lower-part-of-heading{
+                    h5{font-size: 18px;}
+                }
+            }
+        }
         .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
     }
 
@@ -138,6 +148,15 @@
 
     .rf228{
         .first-block{background-image:url(../images/first-block-background-228.jpg);}
+        .second-block{
+            .mbox{
+                .text-conteiner{
+                    p{
+                        &:first-child{margin-bottom: 20px;}
+                    }
+                }
+            }
+        }
         .fourth-block{background-image:url(../images/fourth-block-bakcground-another.jpg);}
     }
 
