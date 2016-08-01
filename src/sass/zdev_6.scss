@@ -68,7 +68,7 @@
 	.second-block{background: url('../images/second-block-background.jpg') no-repeat; background-size: cover; background-position: 50%;  color: #fff;
 		.mbox{padding: 100px 0;
 			.text-conteiner{font-family: 'georgia'; font-size: 20px; padding: 50px 10px; position: relative;width: 100%; max-width: 810px; margin: 0 auto; color: #212121;
-				p{margin:0; text-align: center; line-height: 1.4; }
+				p{margin:0; line-height: 1.4; text-indent: 25px;}
 				&:before{content:''; display: block; position: absolute; width: 400px; height: 2px; background-color: #363638;top: 0; left: 50%; margin-left: -200px;}
 				&:after{content:''; display: block; position: absolute; width: 400px; height: 2px; background-color: #363638;bottom: 0; left: 50%; margin-left: -200px;}
 			}
